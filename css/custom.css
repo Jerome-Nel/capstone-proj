@@ -1,0 +1,206 @@
+/* Logo Image */
+.logo-img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Login Form (Left) Bg */
+.left-wrap {
+  background: linear-gradient(0deg, rgba(29, 44, 61, 0.75), rgba(29, 44, 61, 0.75)), url('../img/classroom.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+
+/* change color of account icon */
+.user-icon {
+  height: 70px;
+  width: 70px;
+  filter: invert(70%) sepia(11%) saturate(1667%) hue-rotate(173deg) brightness(90%) contrast(88%);
+}
+
+/* dashboard styles */
+/* login page */
+
+.app-logo {
+  height: 55px;
+  width: 55px;
+}
+
+.btn {
+  font-size: 14px !important;
+}
+
+.toggler-icon {
+  height: 40px;
+  width: 40px;
+  filter: invert(8%) sepia(14%) saturate(832%) hue-rotate(169deg) brightness(89%) contrast(84%);
+}
+
+.colored-qr-img {
+  height: 80px;
+  width: 80px;
+  filter: invert(89%) sepia(6%) saturate(1555%) hue-rotate(157deg) brightness(96%) contrast(87%);
+}
+
+.left-wrap {
+  background: linear-gradient(0deg, rgba(29, 44, 61, 0.75), rgba(29, 44, 61, 0.75)), url('/src/assets/images/student-class-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;
+}
+
+.title-span {
+  color: #75a6da !important;
+}
+
+.user-icon {
+  height: 70px;
+  width: 70px;
+  filter: invert(70%) sepia(11%) saturate(1667%) hue-rotate(173deg) brightness(90%) contrast(88%);
+}
+
+.login-btn {
+  background-color: #75a6da;
+}
+
+.forgot-pass {
+  color: #75a6da;
+}
+
+li img.sidebar-icons {
+  height: 15px;
+  width: 15px;
+  filter: invert(45%) sepia(5%) saturate(778%) hue-rotate(167deg) brightness(99%) contrast(85%);
+}
+
+/* sidebar */
+
+.navbar-side {
+  z-index: 999;
+  max-width: 250px;
+  background-color: white;
+}
+
+.navbar-side,
+.navbar-side li,
+.navbar-side img,
+.navbar-side .nav-link {
+  transition: 0.4s;
+}
+
+.menu-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.panel-content {
+  margin-left: 250px;
+  width: calc(100% - 250px);
+  height: 100vh;
+  overflow-y: auto;
+  transition: 0.4s;
+  background-color: #ededed;
+}
+
+.active-sidebar {
+  margin-left: -250px;
+}
+
+.active-content {
+  margin-left: 0;
+  width: 100%;
+}
+
+.user-tab img {
+  filter: invert(45%) sepia(5%) saturate(778%) hue-rotate(167deg) brightness(99%) contrast(85%);
+}
+
+.search-fn {
+  width: fit-content;
+}
+
+.search-fn input {
+  border: none;
+  outline: none;
+}
+
+.search-fn img {
+  height: 30px;
+  width: 30px;
+  background-color: #75a6da;
+}
+
+.modal-img {
+  height: 120px;
+  width: 120px;
+}
+
+.navbar-nav .btn-logout {
+  color: #75a6da !important;
+  border-color: #75a6da !important;
+}
+
+/* remove default datatables serach bar */
+.dataTables_filter {
+  display: none;
+}
+
+.search-bar {
+  height: 35px;
+}
+/* =========================================== */
+.overview li span:nth-child(1) {
+  color: #75a6da;
+}
+
+/* table */
+.search-icon {
+  background-color: #75a6da;
+}
+
+.action-btn span {
+  visibility: hidden;
+}
+
+tr:hover .action-btn span {
+  visibility: visible;
+}
+
+.table {
+  padding: 0;
+}
+
+.table td,
+.table th {
+  padding: 0;
+}
+
+/* qr code scanner */
+.my-video {
+  height: 350px;
+  object-fit: cover;
+}
+
+.student-icon .row {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.student-icon .col {
+  margin: 10px;
+}
+
+/* drag and drop */
+/* .draggable {
+  opacity: 0.5;
+}
+
+.droppable {
+  border: 1px solid #ccc;
+} */
+
+.dragging {
+  opacity: 0.5;
+  cursor: move;
+}
